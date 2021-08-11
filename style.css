@@ -1,0 +1,88 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+/* nav section start */
+p{
+    color: #6C6C6C;
+}
+.nav-section{
+    height: 100vh;
+    background-color: #264653;
+}
+.hero-title{
+    align-items: center;
+    justify-content: center;
+    margin-top: 15rem;
+}
+
+.banner-p{
+    color: #E0E0E0;
+}
+.btn-bg-color {
+     background-color: #E76F51 !important;
+ }
+
+/* nav section end */
+
+/* feature section  start */
+.img-grayscale{
+    filter: grayscale(100%);
+    
+}
+
+/* feature section end */
+
+/* meadia quiry section  start below*/
+@media (min-width: 320px) and (max-width: 480px){
+    
+    .hero-img img {
+        /* margin-top: rem; */
+    }
+    .hero-title{
+        align-items: center;
+        justify-content: center;
+        margin-top: 8rem;
+    }
+    
+}
+/* meadia quiry section  end*/
+
+.card{
+    border: none !important;
+}
+
+
+/* news cards section start */
+.news-cards{
+     border-radius: 5px;
+}
+
+/* -- cHappy Clients section start below  -- */
+span{
+    color: #E76F51;
+}
+
+.fa-star{
+    color: #E76F51;
+    font-size: 16px;
+    line-height: 22px;
+}
+/* -- cHappy Clients section end   */
+.help-section{
+   margin-left:5rem;
+}
+.fa-phone-slash{
+   color: darkgrey;
+    font-size: 80px;
+    
+}
+.fa-life-ring{
+    color: darkgrey;
+    font-size: 80px;
+}
+/* conatct section */
+.conatct-img{
+    background: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.8)), url("images/bike-3.png") no-repeat center;
+    background-size: cover;
+
+}
