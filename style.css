@@ -34,10 +34,6 @@ p{
 
 /* meadia quiry section  start below*/
 @media (min-width: 320px) and (max-width: 480px){
-    
-    .hero-img img {
-        /* margin-top: rem; */
-    }
     .hero-title{
         align-items: center;
         justify-content: center;
